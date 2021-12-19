@@ -1,0 +1,62 @@
+@font-face{
+    font-family: "ruso";
+    src: url('../fonts/RussoOne-Regular.ttf');
+}
+
+@font-face{
+    font-family: "Quick";
+    src: url('../fonts/Quicksand-VariableFont_wght.ttf');
+}
+
+body{
+    font-family: Quick;
+}
+
+h2{
+    font-family: Ruso;
+}
+h1, h2, h3, h4, h5, h6{
+    margin: 5px;
+}
+a{
+    color:#3377FF;
+    transition: all 0.5s linear;
+}
+ input, select, textarea, button, .btn{
+     font-family: Quick;
+     padding: 4px 10px;
+     font-size: 1.5em;
+     margin: 2px;
+     border:1px solid #3377ff;
+     border-radius: 10px;
+ }
+button, .btn{
+    font-size: 1.1em;
+    margin: 10px 1px;
+    background-color: rgb(2, 28, 83);
+    border: 1px solid #3377FF;
+    color: #fff;
+}
+div.form_login label{
+    display: block;
+    color: #ffffff;
+    font-size: 1em;
+    text-shadow: 2px 2px 2px rgb(2, 28, 83), 0 0 15px rgb(234, 234, 241);
+}
+.form_login{
+    border: 1px solid #3377FF;
+    padding: 10px;
+    border-radius: 10px;
+    /*background-color:#32405B ;*/
+    background-color: rgba(30,30, 30, 0.7);
+    backdrop-filter: blur(3px);
+    text-align: center;
+    margin-top: 100px;
+ }
+
+
+ div.form_login h2{
+     color: #fff;
+     font-size: 2rem;
+     text-shadow: 3px 3px 5px rgb(2, 28, 83), 0 0 15px rgb(234, 234, 241);
+ }
