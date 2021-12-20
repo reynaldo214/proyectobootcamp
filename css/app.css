@@ -232,3 +232,29 @@ div.form_login label{
      text-align: center;
      line-height: 50px;
  }
+
+ /*
+ ------------------------------------------------
+ portafolio
+ -------------------------------------------------
+ */
+
+ .item_portafolio{
+     display: grid;
+ }
+ .cols_2_1{
+     grid-template-columns: 2fr 1fr;
+ }
+ .cols_1_2{
+     grid-template-columns: 1fr 2fr;
+ }
+ .imagen_portafolio{
+     width: 100%;
+     overflow: hidden;
+ }
+ .descripcion_proyecto{
+     display: grid;
+     align-items: center;
+    padding: 0 30px;
+    text-align: center;
+ }
